@@ -1,0 +1,3 @@
+rootProject.name='SidebarDrawerNav'
+include ':app'
+include ':sidebardrawernav'
