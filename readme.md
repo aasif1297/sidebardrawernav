@@ -1,8 +1,8 @@
 # Sidebar-Drawer-Nav
 
-Drawer behavior is a library build on [Android DrawerLayout Support library](https://https://developer.android.com/training/implementing-navigation/nav-drawer) as Parent Class, to provide animations, transitions, and custom behavior.
+Sidebar-Drawer-Nav is a library build on [Android DrawerLayout Support library](https://https://developer.android.com/training/implementing-navigation/nav-drawer) as Parent Class, to provide animations, transitions, and custom behavior.
 
-If you are using native navigation drawer component you can easily switch use Sidebar-Drawer_Nav library by just changing the layout parent TAGs and call the necessary method for animations/effects.
+If you are using native navigation drawer component you can easily switch to use Sidebar-Drawer_Nav library by just changing the layout's parent Tags and call the necessary method for animations/effects.
 
 [![](https://jitpack.io/v/aasif1297/sidebardrawernav.svg)](https://jitpack.io/#aasif1297/sidebardrawernav)
 
