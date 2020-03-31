@@ -103,7 +103,7 @@ val drawerLayout: SidebarDrawerLayout = findViewById(R.id.drawer_layout)
 
 ```
 
-### Step 3 - Apply animations
+### Step 3 - Use methods
 ```java
 drawerLayout.useCustomBehavior(Gravity.START)
 drawerLayout.setViewScale(Gravity.START, 0.9f)
@@ -112,6 +112,15 @@ drawerLayout.setElevation(Gravity.START, 20.0F)
 drawerLayout.setBackgroundImage(resources.getDrawable(R.drawable.drawer_bg))
 ```
 
+### More customization
+```xml
+drawer.setViewScale(Gravity.START, 0.9f); //set height scale for main view (0f to 1f)
+drawer.setViewElevation(Gravity.START, 20); //set main view elevation when drawer open (dimension)
+drawer.setViewScrimColor(Gravity.START, Color.TRANSPARENT); //set drawer overlay color (color)
+drawer.setDrawerElevation(Gravity.START, 20); //set drawer elevation (dimension)
+drawer.setContrastThreshold(3); //set maximum of contrast ratio between white text and background color.
+drawer.setRadius(Gravity.START, 25); //set end container's corner radius (dimension)
+```
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
